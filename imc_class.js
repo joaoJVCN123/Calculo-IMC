@@ -10,6 +10,6 @@ class Pessoa{
         let peso = this.peso
         let altura = this.altura
         let imcresultado = peso / (altura * altura)
-        return imcresultado
+        return imcresultado.toFixed(2)
     }
 }
