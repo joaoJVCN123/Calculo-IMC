@@ -21,5 +21,6 @@ calcular.addEventListener('click', ()=>{
     resposta.innerHTML = `O cliente ${pessoa1.nome} <br>`
     resposta.innerHTML += `Tem ${pessoa1.idade} anos de idade <br>`
     resposta.innerHTML += `Com o peso de ${pessoa1.peso} e altura de ${pessoa1.altura} m <br>`
-    resposta.innerHTML += `Tem um IMC igual a ${imc}`
+    resposta.innerHTML += `Tem um IMC igual a ${imc} <br>` 
+    resposta.innerHTML += `${classifica }`
 })
