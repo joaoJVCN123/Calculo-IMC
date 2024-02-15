@@ -12,4 +12,8 @@ class Pessoa{
         let imcresultado = peso / (altura * altura)
         return imcresultado.toFixed(2)
     }
+    classificaimc(){
+        let imcresultado = this.calculaimc()
+        console.log(imcresultado)
+    }
 }

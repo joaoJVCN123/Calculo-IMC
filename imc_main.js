@@ -15,6 +15,9 @@ calcular.addEventListener('click', ()=>{
     let imc = pessoa1.calculaimc()
     console.log(imc)
 
+    let classifica = pessoa1.classificaimc()
+    console.log(classifica)
+
     resposta.innerHTML = `O cliente ${pessoa1.nome} <br>`
     resposta.innerHTML += `Tem ${pessoa1.idade} anos de idade <br>`
     resposta.innerHTML += `Com o peso de ${pessoa1.peso} e altura de ${pessoa1.altura} m <br>`
